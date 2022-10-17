@@ -1,14 +1,32 @@
-header {
-}
 h1 {
   font-size: 7em;
   position: absolute;
   left: 25%;
+  top: 50%;
   color: white;
 }
-img {
+.hero-image {
   width: 100%;
 }
 h2 {
   font-size: 1.5em;
+}
+
+article {
+  width: 70%;
+  text-align: center;
+}
+.centralize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 90%;
+  padding: 2% 5%;
+}
+
+.section-border {
+  border-bottom: 2px solid;
 }
